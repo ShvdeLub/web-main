@@ -1,0 +1,14 @@
+h1,p {
+    text-align: center;
+    font-family: "fonte titre";
+    font-size: 600%;
+    background-image: url('image_titre.jpg');
+    background-attachment: fixed;
+    
+    background
+}
+
+@font-face {
+    font-family: "fonte titre";
+    src: url('Steinfeld\ DEMO.ttf');
+}
