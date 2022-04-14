@@ -1,6 +1,7 @@
 init(10, 10, true)
 displayStatus(life, money, awake)
 
+//voilà voilà 
 
 var life
 var money
