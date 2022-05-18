@@ -1,0 +1,97 @@
+html{
+    background-color: blue;
+}
+@font-face {
+    font-family: "Kenia-Regular";
+    src: url("Kenia-Regular.ttf");
+}
+
+.title {
+    text-align: center;
+    font-family: "Kenia-Regular";
+    width: 400px;
+    height: 160px;
+    padding-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    border-radius: 20px;
+}
+
+p {
+    font-size: larger;
+    text-align: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.slides{
+    width: 4000px;
+    animation: trans 18s infinite;
+}
+
+.slide{
+    float: left;
+
+}
+.slider{
+    width: 1000px;
+    overflow: hidden;
+    margin:100px auto;
+}
+
+@keyframes trans {
+    0%{
+        transform: translateX(0);
+    }
+    25%{
+        transform: translateX(-1000px);
+    }
+    50%{
+        transform: translateX(-2000px);
+    }
+    75%{
+        transform: translateX(-3000px);
+    }
+    100%{
+        transform: translateX(0);
+    }
+}
+
+.boutons img{
+    height: 120px;
+    width: 240px;
+    border-radius: 15px;
+}
+.boutons {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 0px;
+    margin: 0px;
+    position: relative;
+    text-align: center;
+    font-size:xx-large;
+
+}
+
+a {
+    text-decoration: none;
+    font-family: "Kenia-Regular";
+    color: white;
+}
+
+.pizza {
+    background-image: url("images/pizza-banner.jpg");
+    width: 600px;
+    height: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+#pizza {
+    text-align: center;
+    font-family: "Kenia-Regular";
+    font-size: x-large;
+
+}

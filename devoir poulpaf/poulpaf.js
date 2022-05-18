@@ -40,7 +40,7 @@ function displayStatus(life, money, awake){
 }
 
 function logBox(a) {
-    let newDiv = document.createElement("div")
+    let newDiv = document.createElement("p")
     let logs = document.createTextNode(a)
     newDiv.appendChild(logs)
     let div = document.getElementById("monstre")
