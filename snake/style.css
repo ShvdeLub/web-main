@@ -1,0 +1,29 @@
+#gameContainer {
+    text-align: center;
+}
+#gameboard{
+    border: 3px solid;
+}
+
+#score {
+    font-family: "fantasy", cursive ;
+    font-size: 100px;
+
+}
+#resetButton {
+    font-family: "fantasy", cursive ;
+    font-size: 40px;
+    background-color: aqua;
+    border: 5px solid black;
+    border-radius: 20px;
+    cursor: pointer;
+    
+}
+
+#resetButton:hover {
+    background-color: gray;
+}
+
+#resetButton:active {
+    color: #d4860c;
+}
