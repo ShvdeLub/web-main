@@ -145,8 +145,8 @@ function checkGameOver() {
             break;    
     }
     for (let i = 1; i < snake.length; i++) {
-        if (snake[i].x == snake[0].x && snake[i].y == snake[0].x) {
-            
+        if (snake[i].x == snake[0].x && snake[i].y == snake[0].y) {
+        running = false  
         }        
     }
 }
@@ -154,8 +154,8 @@ function checkGameOver() {
 function displayGameOver() {
     ctx.font = "50px MV Boli"
     ctx.fillStyle = "black"
-    ctx.textalign = "center"
-    ctx.fillText("GAMEOVER", gameWidht/2, gameHeight/2)
+    ctx.textAlign = "center"
+    ctx.fillText("GAMEOVER", gameWidht / 2, gameHeight / 2)
     running = false
 }
 
@@ -163,7 +163,7 @@ function resetGame() {
     score = 0
     xVelocity = unitSize
     yVelocity = 0
-    let snake = [
+    snake = [
         {x:unitSize * 4, y:0},
         {x:unitSize * 3, y:0},
         {x:unitSize * 2, y:0},
